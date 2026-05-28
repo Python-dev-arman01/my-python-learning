@@ -68,4 +68,18 @@ while True:
         print("👋 Goodbye! Jarvis shutting down.")
         break  # लूप को तुरंत रोक देगा
 
+#--------------------------------------
+#-------Day-4---------------
+#----password-checker-function--------
+
+def pasword_check_systam():
+	vailid_pasword= {"arman123","jarvish01","python77"}
+	pasword= input("Enter your old pasword :")
+	if (pasword in (vailid_pasword)):
+		print("Your pasword sucsessfull change :")
+	else:
+		print("wrong pasword try again")
+		
+pasword_check_systam()
+
 
