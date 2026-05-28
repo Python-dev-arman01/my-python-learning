@@ -56,7 +56,7 @@ def jarvish():
         print("Division2 sucsessfull")
             
     except ValueError:
-        print("❌ Error: कृपया सिर्फ नंबर्स (1, 2, 3) ही डालें, एबीसीडी नहीं!")
+        print("❌ Error: pleaseEnter only numbers! :")
 
 # MAIN LOOP: जो प्रोग्राम को लगातार चलाएगा
 while True:
