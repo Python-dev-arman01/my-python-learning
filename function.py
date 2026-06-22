@@ -82,4 +82,23 @@ def pasword_check_systam():
 		
 pasword_check_systam()
 
+#=======================================
+#========-Day-5========================
+#====palindrome-name-checker-function=====
+def pal_sy():
+    print("=== PALINDROME SYSTEM ACTIVE! ===") 
+    word = input("Enter any name: ").lower()     
+    reversed_word = ""
+    
+    for char in word:
+        reversed_word = char + reversed_word
+        
+    if word == reversed_word:
+        print("The entered name is a palindrome!") 
+    else:
+        print("The entered name is not a palindrome!")
+    print("="*31)
+    
+pal_sy()
 
+	
